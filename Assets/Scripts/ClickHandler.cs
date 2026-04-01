@@ -28,7 +28,7 @@ public class ClickHandler : MonoBehaviour
         var gm = GameManager.instance;
         if (gm == null) return;
 
-        // ── HARD STOP: no input once game is over ─────────────
+        //  HARD STOP: no input once game is over 
         if (gm.gameOver) return;
 
         // Determine if human should be able to click right now
